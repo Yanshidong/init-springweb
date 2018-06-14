@@ -1,17 +1,11 @@
 package com.wangde007.mapper;
 
-import java.util.List;
-
-import org.apache.ibatis.annotations.Delete;
-import org.apache.ibatis.annotations.Insert;
-import org.apache.ibatis.annotations.Result;
-import org.apache.ibatis.annotations.Results;
-import org.apache.ibatis.annotations.Select;
-import org.apache.ibatis.annotations.Update;
-
 import com.wangde007.entity.UserEntity;
 import com.wangde007.enums.UserSexEnum;
+import org.apache.ibatis.annotations.*;
 import org.springframework.stereotype.Service;
+
+import java.util.List;
 
 @Service
 public interface UserMapper {

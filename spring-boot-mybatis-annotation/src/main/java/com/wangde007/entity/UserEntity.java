@@ -1,8 +1,8 @@
 package com.wangde007.entity;
 
-import java.io.Serializable;
-
 import com.wangde007.enums.UserSexEnum;
+
+import java.io.Serializable;
 
 public class UserEntity implements Serializable {
 

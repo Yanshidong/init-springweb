@@ -1,7 +1,7 @@
 package com.wangde007.mapper;
 
-import java.util.List;
-
+import com.wangde007.entity.UserEntity;
+import com.wangde007.enums.UserSexEnum;
 import org.junit.Assert;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -9,8 +9,7 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.junit4.SpringRunner;
 
-import com.wangde007.entity.UserEntity;
-import com.wangde007.enums.UserSexEnum;
+import java.util.List;
 
 @RunWith(SpringRunner.class)
 @SpringBootTest
