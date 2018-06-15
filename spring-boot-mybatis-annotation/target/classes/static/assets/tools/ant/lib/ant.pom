@@ -64,9 +64,9 @@
             <configuration>
               <tasks>
                 <tstamp/>
-                <mkdir dir="${project.build.directory}"/>
-                <touch file="${project.build.directory}/.build.timestamp.properties"/>
-                <echo file="${project.build.directory}/.build.timestamp.properties" append="false"
+                <mkdir dir="F:\\mygithub\\init-springweb\\spring-boot-mybatis-annotation\\target"/>
+                <touch file="F:\\mygithub\\init-springweb\\spring-boot-mybatis-annotation\\target/.build.timestamp.properties"/>
+                <echo file="F:\\mygithub\\init-springweb\\spring-boot-mybatis-annotation\\target/.build.timestamp.properties" append="false"
                   message="TODAY=${TODAY}"/>
               </tasks>
             </configuration>
@@ -79,7 +79,7 @@
             </goals>
             <configuration>
               <tasks>
-                <delete file="${project.build.directory}/.build.timestamp.properties"/>
+                <delete file="F:\\mygithub\\init-springweb\\spring-boot-mybatis-annotation\\target/.build.timestamp.properties"/>
               </tasks>
             </configuration>
           </execution>

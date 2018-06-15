@@ -406,7 +406,7 @@ Other changes:
 
  * Add resource attribute to length task.
 
- * PropertyResource will effectively proxy another Resource if ${name}
+ * PropertyResource will effectively proxy another Resource if spring-boot-mybatis-annotation
    evaluates to a Resource object.
 
  * Added forcestring attribute to equals condition to force evaluation
@@ -2350,7 +2350,7 @@ Other changes:
 
 * Added <scriptselector> selector for scripted file selection
 
-* ant -diagnostics lists contents of ${user.home}/.ant/lib , and
+* ant -diagnostics lists contents of C:\\Users\\tutu/.ant/lib , and
   checks that the java.io.tmpdir directory exists and is writeable.
 
 * mail task accepts nested header element.  Bugzilla report 24713.
@@ -2709,7 +2709,7 @@ Other changes:
   Bugzilla 33787.
 
 * Added -nouserlib option to allow running ant without automatically loading
-  up ${user.home}/.lib/ant. This is useful when compiling ant, and antlibs.
+  up C:\\Users\\tutu/.lib/ant. This is useful when compiling ant, and antlibs.
   Modified the build.sh and build.bat to use the option.
 
 * Added -noclasspath option to allow running ant WITHOUT using CLASSPATH env
@@ -2766,7 +2766,7 @@ Fixed bugs:
 
 * Impossible to use implicit classpath for <taskdef>
   when Ant core loader != Java application loader and
-  Path.systemClassPath taken from ${java.class.path} Bugzilla 30161.
+  Path.systemClassPath taken from C:/Program Files/JetBrains/IntelliJ IDEA 2018.1/lib/jps-launcher.jar;C:/Java/jdk8/lib/tools.jar;C:/Program Files/JetBrains/IntelliJ IDEA 2018.1/lib/optimizedFileManager.jar Bugzilla 30161.
 
 * MacroInstance did not clean up nested elements correctly in the execute
   method, causing multiple use of the same macro instance with nested
@@ -2856,7 +2856,7 @@ Fixed bugs:
 
 * <available> returned false positives when checking a file
   passed in with the current basedir leading twice:
-  e.g. ${basedir}${file.separator}${basedir}${file.separator}foo .
+  e.g. F:/mygithub/init-springweb/spring-boot-mybatis-annotation\F:/mygithub/init-springweb/spring-boot-mybatis-annotation\foo .
 
 * The first file open that took place when using input files with the
   <exec>, <apply>, or <java> tasks was always logged to System.out
@@ -4459,7 +4459,7 @@ Changes that could break older environments:
   assertTrue method instead of assert.
 
 * If the 'output' attribute of <ant> is set to a simple filename or a
-  relative path, the file is created relative to ${basedir}, not ${user.dir}.
+  relative path, the file is created relative to F:/mygithub/init-springweb/spring-boot-mybatis-annotation, not C:\\Users\\tutu\\.IntelliJIdea2018.1\\system\\compile-server.
 
 * The default value for build.compiler is now javac1.x with x
   depending on the JDK that is running Ant instead of classic/modern.

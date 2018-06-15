@@ -31,10 +31,5 @@ CREATE TABLE `users` (
 -- -----------------------------
 -- Table structure for `test`
 -- -----------------------------
-DROP TABLE IF EXISTS `test`;
-CREATE TABLE `test` (
-  `id` BIGINT(20) NOT NULL AUTO_INCREMENT COMMENT '主键',
-  `fun_name` VARCHAR(100) DEFAULT '' COMMENT '测试方法入口名',
-  `type` ENUM(1,2,3,4)
-)
+
 

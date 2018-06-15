@@ -61,9 +61,9 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/ma
             </goals>
             <configuration>
               <tasks>
-                <mkdir dir="${project.build.outputDirectory}"/>
-                <copy todir="${project.build.outputDirectory}/org/apache/tools/ant/taskdefs/optional/junit/xsl">
-                  <fileset dir="${project.build.sourceDirectory}/../etc">
+                <mkdir dir="F:\\mygithub\\init-springweb\\spring-boot-mybatis-annotation\\target\\classes"/>
+                <copy todir="F:\\mygithub\\init-springweb\\spring-boot-mybatis-annotation\\target\\classes/org/apache/tools/ant/taskdefs/optional/junit/xsl">
+                  <fileset dir="F:\\mygithub\\init-springweb\\spring-boot-mybatis-annotation\\src\\main\\java/../etc">
                     <include name="junit-frames.xsl"/>
                     <include name="junit-noframes.xsl"/>
                   </fileset>
@@ -88,8 +88,8 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/ma
     </plugins>
     <sourceDirectory>../../../../src/main</sourceDirectory>
     <testSourceDirectory>../../../../src/testcases</testSourceDirectory>
-    <outputDirectory>../../../../target/${project.artifactId}/classes</outputDirectory>
-    <testOutputDirectory>../../../../target/${project.artifactId}/testcases</testOutputDirectory>
-    <directory>../../../../target/${project.artifactId}</directory>
+    <outputDirectory>../../../../target/spring-boot-mybatis-annotation/classes</outputDirectory>
+    <testOutputDirectory>../../../../target/spring-boot-mybatis-annotation/testcases</testOutputDirectory>
+    <directory>../../../../target/spring-boot-mybatis-annotation</directory>
   </build>
 </project>

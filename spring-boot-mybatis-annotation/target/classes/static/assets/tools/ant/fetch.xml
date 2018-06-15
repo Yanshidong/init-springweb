@@ -28,9 +28,9 @@
   and installs them in a location that is accessible the next time Ant runs.
 
   You can choose three locations, by going -Ddest=LOCATION on the command line
-  -Ddest=user     user lib dir  ${user.home}/.ant/lib
+  -Ddest=user     user lib dir  C:\\Users\\tutu/.ant/lib
   -Ddest=system   ant lib dir   ${ant.home}/lib
-  -Ddest=optional optional dir  $${basedir}/lib/optional  (for Ant developers)
+  -Ddest=optional optional dir  $F:/mygithub/init-springweb/spring-boot-mybatis-annotation/lib/optional  (for Ant developers)
 
   You may also need to set proxy settings. On Java1.5, Ant tries to get
   this from the OS, unless you use the -noproxy option.
@@ -52,16 +52,16 @@
 
   <!-- Give user a chance to override without editing this file
        (and without typing -D each time it compiles it) -->
-  <property file="${user.home}/.ant/ant.properties"/>
+  <property file="C:\\Users\\tutu/.ant/ant.properties"/>
   <property name="lib.dir" location="lib" />
   <property name="optional.dir" location="${lib.dir}/optional" />
-  <property name="userlib.dir" location="${user.home}/.ant/lib" />
+  <property name="userlib.dir" location="C:\\Users\\tutu/.ant/lib" />
 
   <!-- load in our properties table -->
   <property file="${lib.dir}/libraries.properties"/>
 
   <!-- Temporary cache for working files -->
-  <property name="temp.dir" location="${user.home}/.ant/tempcache" />
+  <property name="temp.dir" location="C:\\Users\\tutu/.ant/tempcache" />
   <property name="keep.temp.dir" value="true" />
 
   <import file="get-m2.xml" />
@@ -74,9 +74,9 @@
         </not>
       </condition>ERROR
 Set -Ddest=LOCATION on the command line
-  -Ddest=user     user lib dir  ${user.home}/.ant/lib
+  -Ddest=user     user lib dir  C:\\Users\\tutu/.ant/lib
   -Ddest=system   ant lib dir   ${ant.home}/lib
-  -Ddest=optional optional dir  $${basedir}/lib/optional  (for Ant developers)
+  -Ddest=optional optional dir  $F:/mygithub/init-springweb/spring-boot-mybatis-annotation/lib/optional  (for Ant developers)
     </fail>
 
     <condition property="dest.dir"

@@ -68,8 +68,8 @@
       </plugin>
     </plugins>
     <sourceDirectory>../../../../src/tests/junit</sourceDirectory>
-    <outputDirectory>../../../../target/${project.artifactId}/classes</outputDirectory>
-    <directory>../../../../target/${project.artifactId}</directory>
+    <outputDirectory>../../../../target/spring-boot-mybatis-annotation/classes</outputDirectory>
+    <directory>../../../../target/spring-boot-mybatis-annotation</directory>
   </build>
   
 </project>

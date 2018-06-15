@@ -48,7 +48,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/ma
       <artifactId>netrexx</artifactId>
       <version>2.0.5</version>
       <scope>system</scope>
-      <systemPath>${basedir}/../../../../lib/optional/NetRexxC.jar</systemPath>
+      <systemPath>F:/mygithub/init-springweb/spring-boot-mybatis-annotation/../../../../lib/optional/NetRexxC.jar</systemPath>
     </dependency>
     -->
   </dependencies>
@@ -65,7 +65,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/ma
           </includes>
           <!-- Need to use this rather than system scope as above: -->
           <compilerArguments>
-            <extdirs>${basedir}/../../../../lib/optional</extdirs>
+            <extdirs>F:/mygithub/init-springweb/spring-boot-mybatis-annotation/../../../../lib/optional</extdirs>
           </compilerArguments>
         </configuration>
       </plugin>
@@ -78,7 +78,7 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/ma
             <phase>validate</phase>
             <configuration>
               <tasks>
-                <ant dir="${basedir}/../../../.." antfile="fetch.xml" target="netrexx">
+                <ant dir="F:/mygithub/init-springweb/spring-boot-mybatis-annotation/../../../.." antfile="fetch.xml" target="netrexx">
                   <property name="dest" value="optional"/>
                 </ant>
               </tasks>
@@ -92,8 +92,8 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/ma
     </plugins>
     <sourceDirectory>../../../../src/main</sourceDirectory>
     <testSourceDirectory>../../../../src/testcases</testSourceDirectory>
-    <outputDirectory>../../../../target/${project.artifactId}/classes</outputDirectory>
-    <testOutputDirectory>../../../../target/${project.artifactId}/testcases</testOutputDirectory>
-    <directory>../../../../target/${project.artifactId}</directory>
+    <outputDirectory>../../../../target/spring-boot-mybatis-annotation/classes</outputDirectory>
+    <testOutputDirectory>../../../../target/spring-boot-mybatis-annotation/testcases</testOutputDirectory>
+    <directory>../../../../target/spring-boot-mybatis-annotation</directory>
   </build>
 </project>

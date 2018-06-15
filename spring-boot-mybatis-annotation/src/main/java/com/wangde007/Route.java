@@ -1,17 +1,23 @@
 package com.wangde007;
 
 
+import org.springframework.http.HttpStatus;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.ExceptionHandler;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.ResponseStatus;
+import org.springframework.web.servlet.ModelAndView;
 
 @Controller
 @RequestMapping("/")
 public class Route {
+
     /***
      *  url 路由注册
      * @return String path
      */
+
     @GetMapping(value = "sysUser/list")
     public String UsersGet(){
         return "sysUser/list";
@@ -20,7 +26,7 @@ public class Route {
     public String UsersSave(){
         return "sysUser/save";
     }
-    @GetMapping(value="admin/home")
+    @RequestMapping(value="/admin/home")
     public String admin(){return "admin/index";}
     @GetMapping(value="admin/main/code")
     public String adminCode(){return "admin/main/code";}
@@ -96,6 +102,18 @@ public class Route {
     public String adminChartPie(){return "admin/chart/pie";}
     @GetMapping(value="admin/chart/radar")
     public String adminChartRadar(){return "admin/chart/radar";}
+    @GetMapping(value="admin/login")
+    public String adminLogin(){return "admin/login/index";}
+    @GetMapping(value="admin/forgot")
+    public String adminForget(){return "admin/login/forgot";}
+    @GetMapping(value="admin/reset")
+    public String adminReset(){return "admin/login/reset";}
+    @GetMapping(value="admin/register")
+    public String adminRegister(){return "admin/login/register";}
+
+
+
+
 
 
 

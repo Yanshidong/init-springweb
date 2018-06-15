@@ -64,8 +64,8 @@ xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/ma
     </plugins>
     <sourceDirectory>../../../../src/main</sourceDirectory>
     <testSourceDirectory>../../../../src/testcases</testSourceDirectory>
-    <outputDirectory>../../../../target/${project.artifactId}/classes</outputDirectory>
-    <testOutputDirectory>../../../../target/${project.artifactId}/testcases</testOutputDirectory>
-    <directory>../../../../target/${project.artifactId}</directory>
+    <outputDirectory>../../../../target/spring-boot-mybatis-annotation/classes</outputDirectory>
+    <testOutputDirectory>../../../../target/spring-boot-mybatis-annotation/testcases</testOutputDirectory>
+    <directory>../../../../target/spring-boot-mybatis-annotation</directory>
   </build>
 </project>

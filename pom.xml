@@ -10,7 +10,10 @@
 
 	<name>wangde007-base</name>
 	<description>Base project for wangde007</description>
-
+	<!--加了modules标签 这个pom就会变成 root-->
+    <modules>
+		<module>spring-boot-mybatis-annotation</module>
+	</modules>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
