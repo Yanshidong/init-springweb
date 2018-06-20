@@ -14,4 +14,11 @@ public class ApplicationTests {
 		System.out.println("hello world");
 	}
 
+	@Test
+	public void testCompareTo()
+	{
+		Integer a=3;
+		System.out.println(!(a.equals(2)));
+	}
+
 }
