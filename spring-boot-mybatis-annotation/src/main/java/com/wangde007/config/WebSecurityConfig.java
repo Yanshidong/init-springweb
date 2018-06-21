@@ -1,21 +1,27 @@
 package com.wangde007.config;
 
+import com.wangde007.security.MyUserDetailsServiceImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 
 import org.springframework.context.annotation.*;
 import org.springframework.security.config.annotation.authentication.builders.*;
+import org.springframework.security.config.annotation.authentication.configuration.EnableGlobalAuthentication;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;
 import org.springframework.security.config.annotation.web.builders.WebSecurity;
 import org.springframework.security.config.annotation.web.configuration.*;
+import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 
 @EnableWebSecurity
+@EnableGlobalAuthentication
 public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
 
     @Autowired
     public void configureGlobal(AuthenticationManagerBuilder auth) throws Exception {
         auth
                 .inMemoryAuthentication()
-                .withUser("user").password("password").roles("USER");
+                .withUser("admin").password("123").roles("ADMIN");
+//        auth.userDetailsService(new SecurityUser())
+//        auth.userDetailsService(new MyUserDetailsServiceImpl()).passwordEncoder(new BCryptPasswordEncoder());;
     }
 
     @Override
@@ -48,13 +54,16 @@ public class WebSecurityConfig extends WebSecurityConfigurerAdapter {
                     .loginPage("/admin/login")
                     .permitAll()//允许访问登陆页
                     .defaultSuccessUrl("/admin/home")
+                    .loginProcessingUrl("/login/admin")
+                    .usernameParameter("username")
+                    .passwordParameter("password")
                 .and()
                     .rememberMe().tokenValiditySeconds(1209600).key("wangde007")
                 .and()
                     .logout()
-                    .logoutUrl("/admin/logout")
-                    .logoutSuccessUrl("/admin/login")
-                    .permitAll()
+//                    .logoutUrl("/admin/logout")
+//                    .logoutSuccessUrl("/admin/login")
+//                    .permitAll()
                 .and()
                 .httpBasic()
 

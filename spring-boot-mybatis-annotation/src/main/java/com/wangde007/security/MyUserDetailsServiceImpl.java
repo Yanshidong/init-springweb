@@ -1,6 +1,6 @@
-package com.wangde007.Impl;
+package com.wangde007.security;
 
-import com.wangde007.SecurityUser;
+import com.wangde007.security.SecurityUser;
 import com.wangde007.entity.UserInfoEntity;
 import com.wangde007.enums.UserInfoTypeEnum;
 import com.wangde007.mapper.UserInfoMapper;
@@ -12,8 +12,6 @@ import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
 import org.springframework.security.core.userdetails.UsernameNotFoundException;
 import org.springframework.stereotype.Component;
-
-import java.util.Collection;
 
 @Component
 public class MyUserDetailsServiceImpl implements UserDetailsService {

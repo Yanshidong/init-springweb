@@ -1,7 +1,8 @@
-package com.wangde007;
+package com.wangde007.security;
 
 import com.wangde007.defines.DefineUserInfoState;
 import com.wangde007.defines.DefineUserInfoState;
+import com.wangde007.entity.SysRoleEntity;
 import com.wangde007.entity.UserInfoEntity;
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.authority.SimpleGrantedAuthority;
@@ -26,13 +27,17 @@ public class SecurityUser implements UserDetails {
     public Collection<? extends GrantedAuthority> getAuthorities() {
 
         // 根据自定义逻辑来返回用户权限，如果用户权限返回空或者和拦截路径对应权限不同，验证不通过
-//        if(!userInfoEntity.getRolelist().isEmpty()){
+        if(!userInfoEntity.getRolelist().isEmpty()){
             List<GrantedAuthority> list = new ArrayList<GrantedAuthority>();
-            GrantedAuthority au = new SimpleGrantedAuthority("ROLE_USER");
-            list.add(au);
+            for (SysRoleEntity role:userInfoEntity.getRolelist()){
+                //权限列表压入的是名字？，诡异
+                GrantedAuthority au = new SimpleGrantedAuthority(role.getRole());
+                list.add(au);
+            }
+
             return list;
-//        }
-//        return null;
+        }
+        return null;
     }
 
     /**
