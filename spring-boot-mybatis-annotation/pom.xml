@@ -74,40 +74,7 @@
 			<artifactId>shiro-spring-boot</artifactId>
 			<version>1.4.0-RC2</version>
 		</dependency>
-		<!--spring security-->
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-security</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.security</groupId>
-			<artifactId>spring-security-web</artifactId>
-			<!--<version>5.0.6.RELEASE</version>-->
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.security</groupId>
-			<artifactId>spring-security-config</artifactId>
-			<!--<version>5.0.6.RELEASE</version>-->
-		</dependency>
-		<dependency>
-			<groupId>org.thymeleaf.extras</groupId>
-			<artifactId>thymeleaf-extras-springsecurity4</artifactId>
-		</dependency>
-
-
 	</dependencies>
-	<!-- bom 错误 -->
-	<dependencyManagement>
-		<dependencies>
-			<dependency>
-				<groupId>org.springframework</groupId>
-				<artifactId>spring-framework-bom</artifactId>
-				<version>{spring-version}</version>
-				<type>pom</type>
-				<scope>import</scope>
-			</dependency>
-		</dependencies>
-	</dependencyManagement>
 	<build>
 	  <resources>
             <resource>
