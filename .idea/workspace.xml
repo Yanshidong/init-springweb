@@ -2,31 +2,57 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2754fb81-ee28-4135-ba70-67d234c02bfb" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__aopalliance_aopalliance_1_0.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_security_1_4_1_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_config_4_1_3_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_core_4_1_3_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_security_spring_security_web_4_1_3_RELEASE.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_beans_4_3_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_4_3_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_2_RELEASE.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_expression_4_3_3_RELEASE.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_thymeleaf_extras_thymeleaf_extras_springsecurity4_2_1_2_RELEASE.xml" beforeDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__ch_qos_logback_logback_access_1_1_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_mchange_c3p0_0_9_5_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_mchange_mchange_commons_java_0_2_11.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_mail_javax_mail_1_5_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__commons_logging_commons_logging_1_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__javax_activation_activation_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_apache_commons_commons_pool2_2_4_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_3_4_6.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_mybatis_spring_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_autoconfigure_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_mybatis_spring_boot_mybatis_spring_boot_starter_1_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_cache_1_4_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_redis_1_4_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_mail_1_4_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_websocket_1_4_1_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_1_12_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_keyvalue_1_1_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_redis_1_7_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_session_spring_session_1_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_session_spring_session_data_redis_1_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_context_support_4_3_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_messaging_4_3_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_oxm_4_3_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_websocket_4_3_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__redis_clients_jedis_2_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-mybatis-annotation/src/main/java/com/wangde007/com/wangde007/db/DBM.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-mybatis-annotation/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-mybatis-annotation/src/main/resources/logback-access.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-mybatis-annotation/src/main/resources/logback-test.xml.bck" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/spring-boot-mybatis-annotation/src/test/java/com/wangde007/log/logTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-boot-mybatis-annotation/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mybatis-annotation/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/spring-boot-mybatis-annotation/spring-boot-mybatis-annotation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mybatis-annotation/spring-boot-mybatis-annotation.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-mybatis-annotation/src/main/java/com/wangde007/config/WebSecurityConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-mybatis-annotation/src/main/java/com/wangde007/security/LoginSuccessHandler.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-mybatis-annotation/src/main/java/com/wangde007/security/MyUserDetailsServiceImpl.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-mybatis-annotation/src/main/java/com/wangde007/security/SecurityUser.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-mybatis-annotation/target/classes/com/wangde007/config/WebSecurityConfig.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-mybatis-annotation/target/classes/com/wangde007/security/LoginSuccessHandler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-mybatis-annotation/target/classes/com/wangde007/security/MyUserDetailsServiceImpl.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/spring-boot-mybatis-annotation/target/classes/com/wangde007/security/SecurityUser.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/tomcat/logs/access_log.2018-06-21.log" beforeDir="false" afterPath="$PROJECT_DIR$/target/tomcat/logs/access_log.2018-06-21.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-mybatis-annotation/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-mybatis-annotation/src/main/resources/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mybatis-annotation/src/main/resources/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-mybatis-annotation/src/test/java/com/wangde007/ApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mybatis-annotation/src/test/java/com/wangde007/ApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-mybatis-annotation/src/test/java/com/wangde007/mapper/UserMapperTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mybatis-annotation/src/test/java/com/wangde007/mapper/UserMapperTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-mybatis-annotation/target/classes/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-mybatis-annotation/target/classes/logback.xml" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mybatis-annotation/target/classes/logback.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-mybatis-annotation/target/test-classes/com/wangde007/ApplicationTests.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mybatis-annotation/target/test-classes/com/wangde007/ApplicationTests.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/spring-boot-mybatis-annotation/target/test-classes/com/wangde007/mapper/UserMapperTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/spring-boot-mybatis-annotation/target/test-classes/com/wangde007/mapper/UserMapperTest.class" afterDir="false" />
     </list>
     <ignored path="C:/IDE/OpenPortalServer/webapps/" />
     <ignored path="$PROJECT_DIR$/spring-boot-mybatis-annotation/target/" />
     <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/etest/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -50,11 +76,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="LoginController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-annotation/src/main/java/com/wangde007/web/LoginController.java">
+      <file leaf-file-name="application.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-annotation/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+            <state relative-caret-position="141">
+              <caret line="21" column="37" lean-forward="true" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="logTest.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-annotation/src/test/java/com/wangde007/log/logTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="395">
+              <caret line="32" column="37" lean-forward="true" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -62,29 +97,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="UserController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-annotation/src/main/java/com/wangde007/web/UserController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="100">
-              <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="application.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-annotation/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="175">
-              <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
+      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-annotation/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="75" column="21" lean-forward="true" selection-start-line="75" selection-start-column="21" selection-end-line="75" selection-end-column="21" />
+            <state relative-caret-position="675">
+              <caret line="99" column="41" lean-forward="true" selection-start-line="99" selection-start-column="41" selection-end-line="99" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="logback.xml" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-annotation/src/main/resources/logback.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="175">
+              <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
             </state>
           </provider>
         </entry>
@@ -97,7 +123,9 @@
         <option value="HTML File" />
         <option value="AnnotationType" />
         <option value="Enum" />
+        <option value="Interface" />
         <option value="Class" />
+        <option value="spring-beans.schema" />
       </list>
     </option>
   </component>
@@ -110,6 +138,7 @@
       <find>getRole</find>
       <find>thymeleaf</find>
       <find>admin/login</find>
+      <find>日志</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -123,20 +152,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/spring-boot-mybatis-annotation/users.sql" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/spring-boot-mybatis-annotation/src/main/resources/templates/admin/login/forgot.html" />
-        <option value="$PROJECT_DIR$/spring-boot-mybatis-annotation/src/main/resources/templates/admin/login/reset.html" />
-        <option value="$PROJECT_DIR$/spring-boot-mybatis-annotation/src/main/resources/templates/admin/login/register.html" />
-        <option value="$PROJECT_DIR$/spring-boot-mybatis-annotation/src/main/resources/templates/admin/index.html" />
-        <option value="$PROJECT_DIR$/spring-boot-mybatis-annotation/src/main/resources/templates/error/505.html" />
-        <option value="$PROJECT_DIR$/spring-boot-mybatis-annotation/src/main/resources/templates/error/504.html" />
-        <option value="$PROJECT_DIR$/spring-boot-mybatis-annotation/src/main/resources/templates/error/502.html" />
-        <option value="$PROJECT_DIR$/spring-boot-mybatis-annotation/src/main/resources/templates/error/410.html" />
-        <option value="$PROJECT_DIR$/spring-boot-mybatis-annotation/src/main/resources/templates/error/403.html" />
-        <option value="$PROJECT_DIR$/spring-boot-mybatis-annotation/src/main/resources/templates/error/500.html" />
-        <option value="$PROJECT_DIR$/spring-boot-mybatis-annotation/src/main/resources/templates/error/404.html" />
-        <option value="$PROJECT_DIR$/spring-boot-mybatis-annotation/src/main/resources/templates/error/400.html" />
         <option value="$PROJECT_DIR$/spring-boot-mybatis-annotation/src/main/java/com/wangde007/config/KingShiroRealm.java" />
         <option value="$PROJECT_DIR$/spring-boot-mybatis-annotation/src/main/java/com/wangde007/enums/UserInfoStateEnum.java" />
         <option value="$PROJECT_DIR$/spring-boot-mybatis-annotation/src/test/java/com/wangde007/enums/UserInfoStateEnumTest.java" />
@@ -151,11 +166,9 @@
         <option value="$PROJECT_DIR$/spring-boot-mybatis-annotation/src/main/java/com/wangde007/Application.java" />
         <option value="$PROJECT_DIR$/spring-boot-mybatis-annotation/src/main/java/com/wangde007/enums/UserInfoTypeEnum.java" />
         <option value="$PROJECT_DIR$/spring-boot-mybatis-annotation/src/main/java/com/wangde007/entity/MsgEntity.java" />
-        <option value="$PROJECT_DIR$/spring-boot-mybatis-annotation/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/spring-boot-mybatis-annotation/src/main/java/com/wangde007/utils/MyStringUtil.java" />
         <option value="$PROJECT_DIR$/spring-boot-mybatis-annotation/src/main/java/com/wangde007/Impl/MyUserDetailsServiceImpl.java" />
         <option value="$PROJECT_DIR$/spring-boot-mybatis-annotation/src/main/java/com/wangde007/defines/UserInfoState.java" />
-        <option value="$PROJECT_DIR$/spring-boot-mybatis-annotation/src/test/java/com/wangde007/ApplicationTests.java" />
         <option value="$PROJECT_DIR$/spring-boot-mybatis-annotation/src/main/java/com/wangde007/defines/DefineUserInfoState.java" />
         <option value="$PROJECT_DIR$/spring-boot-mybatis-annotation/src/main/resources/templates/admin/chart/area.html" />
         <option value="$PROJECT_DIR$/spring-boot-mybatis-annotation/src/main/java/com/wangde007/entity/SysRoleEntity.java" />
@@ -173,7 +186,23 @@
         <option value="$PROJECT_DIR$/spring-boot-mybatis-annotation/src/main/java/com/wangde007/config/WebSecurityConfig.java" />
         <option value="$PROJECT_DIR$/spring-boot-mybatis-annotation/src/main/java/com/wangde007/web/LoginController.java" />
         <option value="$PROJECT_DIR$/spring-boot-mybatis-annotation/src/main/java/com/wangde007/security/SecurityUser.java" />
+        <option value="$PROJECT_DIR$/spring-boot-mybatis-annotation/src/main/java/com/wangde007/web/UserController.java" />
+        <option value="$PROJECT_DIR$/spring-boot-mybatis-annotation/src/test/java/com/wangde007/mapper/UserMapperTest.java" />
+        <option value="$PROJECT_DIR$/spring-boot-mybatis-annotation/src/test/java/com/wangde007/ApplicationTests.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/etest/pom.xml" />
+        <option value="$PROJECT_DIR$/etest/src/main/java/com/wangde007/etest/EtestApplication.java" />
+        <option value="$PROJECT_DIR$/etest/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/spring-boot-mybatis-annotation/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/spring-boot-mybatis-annotation/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/spring-boot-mybatis-annotation/src/main/resources/log4j-spring.properties" />
+        <option value="$PROJECT_DIR$/spring-boot-mybatis-annotation/src/main/resources/log4j2-test.properties" />
+        <option value="$PROJECT_DIR$/spring-boot-mybatis-annotation/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/spring-boot-mybatis-annotation/src/test/java/com/wangde007/log/logTest.java" />
+        <option value="$PROJECT_DIR$/spring-boot-mybatis-annotation/src/main/resources/logback-access.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-mybatis-annotation/src/main/resources/logback-test.xml" />
         <option value="$PROJECT_DIR$/spring-boot-mybatis-annotation/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot-mybatis-annotation/src/main/resources/logback.xml" />
       </list>
     </option>
   </component>
@@ -207,10 +236,9 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="20" />
-    <option name="y" value="218" />
-    <option name="width" value="1373" />
-    <option name="height" value="667" />
+    <option name="x" value="676" />
+    <option name="width" value="697" />
+    <option name="height" value="745" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -242,7 +270,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -250,12 +277,43 @@
               <item name="init-springweb" type="b2602c69:ProjectViewProjectNode" />
               <item name="init-springweb" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="init-springweb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="init-springweb" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-mybatis-annotation" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="init-springweb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="init-springweb" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-mybatis-annotation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="init-springweb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="init-springweb" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-mybatis-annotation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="init-springweb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="init-springweb" type="462c0819:PsiDirectoryNode" />
+              <item name="spring-boot-mybatis-annotation" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="init-springweb" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -271,7 +329,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="F:/othergithub/springboot-shiro" />
+    <property name="last_opened_file_path" value="F:/othergithub/logback-demo" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Project" />
@@ -289,6 +347,11 @@
     </key>
   </component>
   <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
     <option name="ruleStates">
       <list>
         <RuleState>
@@ -299,8 +362,9 @@
         </RuleState>
       </list>
     </option>
+    <option name="contentProportion" value="0.085138164" />
   </component>
-  <component name="RunManager" selected="Spring Boot.spring-boot-mybatis-annotation">
+  <component name="RunManager" selected="JUnit.logTest.loggerNew">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -373,29 +437,6 @@
       </option>
       <patterns />
     </configuration>
-    <configuration name="UserInfoStateEnumTest.printEnum" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="spring-boot-mybatis-annotation" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.wangde007.enums.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="com.wangde007.enums" />
-      <option name="MAIN_CLASS_NAME" value="com.wangde007.enums.UserInfoStateEnumTest" />
-      <option name="METHOD_NAME" value="printEnum" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <patterns />
-    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -411,6 +452,56 @@
         <value defaultName="singleModule" />
       </option>
       <patterns />
+    </configuration>
+    <configuration name="logTest.loggerNew" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-mybatis-annotation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wangde007.log.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.wangde007.log" />
+      <option name="MAIN_CLASS_NAME" value="com.wangde007.log.logTest" />
+      <option name="METHOD_NAME" value="loggerNew" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="logTest.write" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="spring-boot-mybatis-annotation" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wangde007.log.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="com.wangde007.log" />
+      <option name="MAIN_CLASS_NAME" value="com.wangde007.log.logTest" />
+      <option name="METHOD_NAME" value="write" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="EtestApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="etest" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wangde007.etest.EtestApplication" />
     </configuration>
     <configuration name="spring-boot-mybatis-annotation" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="spring-boot-mybatis-annotation" />
@@ -442,17 +533,20 @@
     </configuration>
     <list>
       <item itemvalue="Spring Boot.spring-boot-mybatis-annotation" />
-      <item itemvalue="JUnit.UserInfoStateEnumTest.printEnum" />
+      <item itemvalue="Spring Boot.EtestApplication" />
       <item itemvalue="JUnit.ApplicationTests.testCompareTo" />
       <item itemvalue="JUnit.UserInfoMapperTest.getOneUserByTypeAndName" />
       <item itemvalue="JUnit.SysRoleMapperTest.getUsersRoleByUserid" />
+      <item itemvalue="JUnit.logTest.write" />
+      <item itemvalue="JUnit.logTest.loggerNew" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.logTest.loggerNew" />
+        <item itemvalue="JUnit.logTest.write" />
+        <item itemvalue="JUnit.ApplicationTests.testCompareTo" />
         <item itemvalue="JUnit.UserInfoMapperTest.getOneUserByTypeAndName" />
         <item itemvalue="JUnit.SysRoleMapperTest.getUsersRoleByUserid" />
-        <item itemvalue="JUnit.ApplicationTests.testCompareTo" />
-        <item itemvalue="JUnit.UserInfoStateEnumTest.printEnum" />
       </list>
     </recent_temporary>
   </component>
@@ -482,6 +576,19 @@
       <workItem from="1529460948998" duration="37051000" />
       <workItem from="1529565278556" duration="3324000" />
       <workItem from="1529584034719" duration="3016000" />
+      <workItem from="1529632216817" duration="672000" />
+      <workItem from="1529653856275" duration="1787000" />
+      <workItem from="1529761704449" duration="1063000" />
+      <workItem from="1529768919251" duration="945000" />
+      <workItem from="1529807634677" duration="2472000" />
+      <workItem from="1529810988579" duration="2276000" />
+      <workItem from="1529883700618" duration="5443000" />
+      <workItem from="1529906182299" duration="7831000" />
+      <workItem from="1529918910119" duration="1652000" />
+      <workItem from="1529992148425" duration="2027000" />
+      <workItem from="1529998906010" duration="631000" />
+      <workItem from="1530063824254" duration="1348000" />
+      <workItem from="1530147978672" duration="10383000" />
     </task>
     <task id="LOCAL-00001" summary="modify base pom">
       <created>1528982687796</created>
@@ -532,46 +639,54 @@
       <option name="project" value="LOCAL" />
       <updated>1529565491120</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="test left join 关联查询。以及初始化 spring security">
+      <created>1529632258607</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1529632258607</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="UserInfoMapperTest_getOneUserByTypeAndName - 2018.06.20 at 17h 31m 40s.xml">
-      <configuration name="UserInfoMapperTest.getOneUserByTypeAndName" configurationId="JUnit" />
+    <history-entry file="logTest_loggerNew - 2018.06.28 at 13h 57m 10s.xml">
+      <configuration name="logTest.loggerNew" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserInfoMapperTest_getOneUserByTypeAndName - 2018.06.20 at 17h 32m 56s.xml">
-      <configuration name="UserInfoMapperTest.getOneUserByTypeAndName" configurationId="JUnit" />
+    <history-entry file="logTest_loggerNew - 2018.06.28 at 14h 00m 43s.xml">
+      <configuration name="logTest.loggerNew" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserInfoMapperTest_getOneUserByTypeAndName - 2018.06.20 at 17h 49m 35s.xml">
-      <configuration name="UserInfoMapperTest.getOneUserByTypeAndName" configurationId="JUnit" />
+    <history-entry file="logTest_loggerNew - 2018.06.28 at 14h 09m 26s.xml">
+      <configuration name="logTest.loggerNew" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserInfoMapperTest_getOneUserByTypeAndName - 2018.06.20 at 17h 52m 46s.xml">
-      <configuration name="UserInfoMapperTest.getOneUserByTypeAndName" configurationId="JUnit" />
+    <history-entry file="logTest_loggerNew - 2018.06.28 at 14h 09m 59s.xml">
+      <configuration name="logTest.loggerNew" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserInfoMapperTest_getOneUserByTypeAndName - 2018.06.20 at 17h 55m 23s.xml">
-      <configuration name="UserInfoMapperTest.getOneUserByTypeAndName" configurationId="JUnit" />
+    <history-entry file="logTest_loggerNew - 2018.06.28 at 14h 12m 06s.xml">
+      <configuration name="logTest.loggerNew" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserInfoMapperTest_getOneUserByTypeAndName - 2018.06.20 at 18h 05m 24s.xml">
-      <configuration name="UserInfoMapperTest.getOneUserByTypeAndName" configurationId="JUnit" />
+    <history-entry file="logTest_loggerNew - 2018.06.28 at 14h 46m 23s.xml">
+      <configuration name="logTest.loggerNew" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserInfoMapperTest_getOneUserByTypeAndName - 2018.06.20 at 22h 01m 01s.xml">
-      <configuration name="UserInfoMapperTest.getOneUserByTypeAndName" configurationId="JUnit" />
+    <history-entry file="logTest_loggerNew - 2018.06.28 at 14h 55m 07s.xml">
+      <configuration name="logTest.loggerNew" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserInfoMapperTest_getOneUserByTypeAndName - 2018.06.20 at 23h 40m 47s.xml">
-      <configuration name="UserInfoMapperTest.getOneUserByTypeAndName" configurationId="JUnit" />
+    <history-entry file="logTest_loggerNew - 2018.06.28 at 14h 56m 50s.xml">
+      <configuration name="logTest.loggerNew" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserInfoMapperTest_getOneUserByTypeAndName - 2018.06.20 at 23h 43m 06s.xml">
-      <configuration name="UserInfoMapperTest.getOneUserByTypeAndName" configurationId="JUnit" />
+    <history-entry file="logTest_loggerNew - 2018.06.28 at 14h 58m 29s.xml">
+      <configuration name="logTest.loggerNew" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="UserInfoMapperTest_getOneUserByTypeAndName - 2018.06.21 at 09h 01m 12s.xml">
-      <configuration name="UserInfoMapperTest.getOneUserByTypeAndName" configurationId="JUnit" />
+    <history-entry file="logTest_loggerNew - 2018.06.28 at 14h 58m 36s.xml">
+      <configuration name="logTest.loggerNew" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="88230000" />
+    <option name="totallyTimeSpent" value="126760000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50073206" side_tool="true" weight="0.07763975" />
@@ -585,15 +700,17 @@
       <window_info id="UI Designer" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.19099379" />
       <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32763976" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="7" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
+      <window_info anchor="bottom" id="Run Dashboard" order="8" weight="0.29347825" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.18478261" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.39440992" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.38819876" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49926794" weight="0.21273293" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.75084174" visible="true" weight="0.24816984" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.75084174" visible="true" weight="0.26207906" />
       <window_info anchor="right" id="Bean Validation" order="3" />
       <window_info id="Web" order="2" side_tool="true" />
       <window_info anchor="right" id="Theme Preview" order="3" />
@@ -602,10 +719,9 @@
       <window_info anchor="right" id="Commander" order="0" weight="0.4" />
       <window_info anchor="bottom" id="Database Console" order="8" weight="0.32919255" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32763976" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49926794" weight="0.07763975" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49926794" weight="0.27173913" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -622,197 +738,10 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="4" />
+      <option name="time" value="8" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-annotation/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-annotation/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1850">
-          <caret line="74" column="29" lean-forward="true" selection-start-line="74" selection-start-column="29" selection-end-line="74" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-annotation/src/main/resources/templates/error/404.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="26" selection-start-line="3" selection-start-column="26" selection-end-line="3" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-annotation/src/main/resources/templates/error/400.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-annotation/src/main/java/com/wangde007/config/KingShiroRealm.java" />
-    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-annotation/src/test/java/com/wangde007/enums/UserInfoStateEnumTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="14" column="4" selection-start-line="14" selection-start-column="4" selection-end-line="14" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-annotation/src/main/java/com/wangde007/enums/UserInfoStateEnum.java" />
-    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-annotation/src/main/java/com/wangde007/entity/SysRole.java" />
-    <entry file="jar://$MAVEN_REPOSITORY$/org/hibernate/hibernate-validator/5.2.4.Final/hibernate-validator-5.2.4.Final-sources.jar!/org/hibernate/validator/constraints/Email.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-438">
-          <caret line="36" column="18" selection-start-line="36" selection-start-column="18" selection-end-line="36" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-annotation/src/main/java/com/wangde007/config/DataSourceConfig.java" />
-    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-annotation/src/main/java/com/wangde007/config/WebSecurityConfig.java" />
-    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-annotation/src/main/java/com/wangde007/enums/UserSexEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="2" column="12" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-annotation/src/main/java/com/wangde007/enums/PermissionResourceTypeEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="15" lean-forward="true" selection-start-line="3" selection-start-column="15" selection-end-line="3" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-annotation/src/main/resources/banner.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-annotation/src/main/java/com/wangde007/Application.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="11" column="25" selection-start-line="11" selection-start-column="25" selection-end-line="11" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-annotation/src/test/java/com/wangde007/mapper/UserMapperTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="14" column="5" selection-start-line="14" selection-start-column="5" selection-end-line="14" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/4.1.3.RELEASE/spring-security-config-4.1.3.RELEASE.jar!/org/springframework/security/config/annotation/web/configurers/ExpressionUrlAuthorizationConfigurer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="8">
-          <caret line="104" column="26" selection-start-line="104" selection-start-column="26" selection-end-line="104" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/4.1.3.RELEASE/spring-security-core-4.1.3.RELEASE.jar!/org/springframework/security/core/userdetails/UserDetailsService.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="9" column="1" selection-start-line="9" selection-end-line="9" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Java/jdk8/src.zip!/java/lang/SecurityManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1555">
-          <caret line="292" column="30" lean-forward="true" selection-start-line="292" selection-start-column="30" selection-end-line="292" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-annotation/src/main/java/com/wangde007/utils/MyStringUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="12" column="47" selection-start-line="12" selection-start-column="47" selection-end-line="12" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Java/jdk8/src.zip!/java/lang/Integer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="1212" column="19" lean-forward="true" selection-start-line="1212" selection-start-column="19" selection-end-line="1212" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-annotation/src/test/java/com/wangde007/ApplicationTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="20" column="39" lean-forward="true" selection-start-line="20" selection-start-column="39" selection-end-line="20" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://C:/Java/jdk8/src.zip!/java/lang/Object.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="129">
-          <caret line="36" column="13" selection-start-line="36" selection-start-column="13" selection-end-line="36" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-annotation/src/main/resources/templates/admin/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="50" column="51" lean-forward="true" selection-start-line="50" selection-start-column="51" selection-end-line="50" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-annotation/src/main/java/com/wangde007/defines/DefineUserInfoState.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="3" column="35" selection-start-line="3" selection-start-column="35" selection-end-line="3" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-annotation/src/main/resources/templates/admin/chart/area.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="1" selection-start-line="1" selection-start-column="5" selection-end-line="1" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-annotation/src/main/resources/templates/admin/chart/line.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="5" column="25" selection-start-line="5" selection-start-column="25" selection-end-line="5" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-annotation/src/main/java/com/wangde007/enums/UserInfoTypeEnum.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="6" column="32" selection-start-line="6" selection-start-column="32" selection-end-line="6" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-annotation/src/main/java/com/wangde007/mapper/UserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="9" column="8" lean-forward="true" selection-start-line="9" selection-start-column="8" selection-end-line="9" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-annotation/src/test/java/com/wangde007/mapper/SysRoleMapperTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="21" column="38" selection-start-line="21" selection-start-column="38" selection-end-line="21" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-annotation/src/test/java/com/wangde007/mapper/UserInfoMapperTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="24" column="42" selection-start-line="24" selection-start-column="42" selection-end-line="24" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-annotation/src/main/java/com/wangde007/mapper/SysRoleMapper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="419">
@@ -899,30 +828,203 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
           <caret line="7" column="30" selection-start-line="7" selection-start-column="30" selection-end-line="7" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-annotation/src/main/java/com/wangde007/web/UserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="19" column="51" selection-start-line="19" selection-start-column="51" selection-end-line="19" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DBM.uml" />
+    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-annotation/src/test/java/com/wangde007/mapper/UserMapperTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="850">
+          <caret line="43" column="4" selection-start-line="43" selection-start-column="4" selection-end-line="43" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-annotation/src/main/resources/banner.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="27" selection-start-line="7" selection-start-column="27" selection-end-line="7" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Java/jdk8/src.zip!/java/lang/String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="392">
+          <caret line="150" column="11" selection-start-line="150" selection-start-column="11" selection-end-line="150" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="55">
+          <caret line="6" column="20" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-annotation/src/test/java/com/wangde007/ApplicationTests.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="23" column="28" selection-start-line="23" selection-start-column="28" selection-end-line="23" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etest/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2000">
+          <caret line="80" column="40" selection-start-line="80" selection-start-column="40" selection-end-line="80" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etest/src/main/java/com/wangde007/etest/EtestApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="8" column="39" selection-start-line="8" selection-start-column="39" selection-end-line="8" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/etest/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="250">
+          <caret line="10" column="33" selection-start-line="10" selection-start-column="33" selection-end-line="10" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-annotation/src/main/resources/application.properties.bck" />
+    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-annotation/target/log4j/spring.log" />
+    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-annotation/src/main/resources/application.properties" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/slf4j/log4j-over-slf4j/1.7.21/log4j-over-slf4j-1.7.21-sources.jar!/org/apache/log4j/ConsoleAppender.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-annotation/src/main/resources/log4j.properties" />
+    <entry file="jar://$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.21/slf4j-api-1.7.21-sources.jar!/org/slf4j/LoggerFactory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="65" column="66" lean-forward="true" selection-start-line="65" selection-start-column="66" selection-end-line="65" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-annotation/src/main/resources/log4j2-test.properties" />
+    <entry file="file://F:/server/t7_2/webapps/ROOT/WEB-INF/classes/com/leeson/core/controller/APIController.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-6250">
+          <caret line="150" column="15" selection-start-line="150" selection-start-column="15" selection-end-line="150" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/server/t7_2/webapps/ROOT/WEB-INF/classes/com/leeson/core/api/AccountAPIRequest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/server/t7_2/webapps/ROOT/WEB-INF/classes/com/leeson/core/controller/AjaxInterFaceWISPrController.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="132" column="47" selection-start-line="132" selection-start-column="47" selection-end-line="132" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://F:/server/t7_2/webapps/ROOT/WEB-INF/classes/com/leeson/core/controller/NdjblacklistController.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="24" column="34" selection-start-line="24" selection-start-column="34" selection-end-line="24" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot/1.4.1.RELEASE/spring-boot-1.4.1.RELEASE-sources.jar!/org/springframework/boot/SpringApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="112">
+          <caret line="188" column="48" selection-start-line="188" selection-start-column="48" selection-end-line="188" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-annotation/src/main/resources/log4j-spring.properties" />
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/boot/spring-boot-dependencies/1.4.1.RELEASE/spring-boot-dependencies-1.4.1.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="1030" column="12" selection-start-line="1030" selection-start-column="12" selection-end-line="1030" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-annotation/myApp.log.2018-06-28.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1481" />
+      </provider>
+    </entry>
+    <entry file="jar://C:/Java/jdk8/src.zip!/java/util/logging/Logger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="65">
+          <caret line="490" column="25" selection-start-line="490" selection-start-column="25" selection-end-line="490" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/myApp.log.2018-06-28.log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="865" selection-start-line="865" selection-end-line="865" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-annotation/src/main/java/com/wangde007/Application.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-annotation/src/main/resources/logback-access.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-annotation/src/main/resources/logback-test.xml.bck">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="1" column="29" selection-start-line="1" selection-start-column="29" selection-end-line="1" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-annotation/src/test/java/com/wangde007/log/logTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="395">
+          <caret line="32" column="37" lean-forward="true" selection-start-line="32" selection-start-column="37" selection-end-line="32" selection-end-column="37" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-annotation/src/main/java/com/wangde007/web/UserController.java">
+    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-annotation/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="11" column="14" selection-start-line="11" selection-start-column="14" selection-end-line="11" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-annotation/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="7" column="29" selection-start-line="7" selection-start-column="29" selection-end-line="7" selection-end-column="29" />
+        <state relative-caret-position="141">
+          <caret line="21" column="37" lean-forward="true" selection-start-line="21" selection-start-column="37" selection-end-line="21" selection-end-column="37" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-annotation/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="75" column="21" lean-forward="true" selection-start-line="75" selection-start-column="21" selection-end-line="75" selection-end-column="21" />
+        <state relative-caret-position="675">
+          <caret line="99" column="41" lean-forward="true" selection-start-line="99" selection-start-column="41" selection-end-line="99" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/spring-boot-mybatis-annotation/src/main/resources/logback.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="7" column="48" selection-start-line="7" selection-start-column="48" selection-end-line="7" selection-end-column="48" />
         </state>
       </provider>
     </entry>

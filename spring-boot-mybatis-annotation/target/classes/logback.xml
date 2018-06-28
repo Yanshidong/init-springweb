@@ -1,8 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" encoding="UTF-8" ?>
+
 <configuration>
+    <appender name="DB" class="ch.qos.logback.classic.db.DBAppender">
+        <connectionSource
+                class="ch.qos.logback.core.db.DriverManagerConnectionSource">
+            <driverClass>com.mysql.jdbc.Driver</driverClass>
+            <url>jdbc:mysql://localhost:3306/test1?useSSL=true</url>
+            <user>root</user>
+            <password>root</password>
 
-    <include resource="org/springframework/boot/logging/logback/base.xml"/>
+        </connectionSource>
+    </appender>
 
-    <!-- logger name="org.springframework" level="DEBUG"/-->
-
+    <root level="ALL">
+        <appender-ref ref="DB" />
+    </root>
 </configuration>

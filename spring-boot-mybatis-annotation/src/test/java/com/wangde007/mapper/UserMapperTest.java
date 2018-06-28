@@ -26,6 +26,12 @@ public class UserMapperTest {
 
 		Assert.assertEquals(3, UserMapper.getAll().size());
 	}
+	public void query(String queryKey,List<String> paramList)
+	{
+		//queryKey="User.insert" paramList =["aa","a123456","MAN"]
+		UserMapper.insert(new UserEntity("aa", "a123456", UserSexEnum.MAN));
+
+	}
 
 	@Test
 	public void testQuery() throws Exception {

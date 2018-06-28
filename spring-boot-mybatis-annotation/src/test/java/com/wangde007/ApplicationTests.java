@@ -14,11 +14,17 @@ public class ApplicationTests {
 		System.out.println("hello world");
 	}
 
+	/**
+	 * new String声明的字符串对象和其他东西比较只能equals方法，
+	 * 基本类型的String 和字符串常量直接用==可以，
+	 */
 	@Test
 	public void testCompareTo()
 	{
-		Integer a=3;
-		System.out.println(!(a.equals(2)));
+		String a=new String("abc");
+		String b= "abc";
+		System.out.println("a:"+a+"\n"+"b:"+b);
+		System.out.println(a==a);
 	}
 
 }

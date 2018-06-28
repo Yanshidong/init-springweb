@@ -13,6 +13,7 @@
 	<!--加了modules标签 这个pom就会变成 root-->
     <modules>
 		<module>spring-boot-mybatis-annotation</module>
+		<module>etest</module>
 	</modules>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
