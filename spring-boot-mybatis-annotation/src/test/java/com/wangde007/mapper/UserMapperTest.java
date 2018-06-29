@@ -49,4 +49,10 @@ public class UserMapperTest {
 		Assert.assertTrue(("wangde007".equals(UserMapper.getOne(3l).getNickName())));
 	}
 
+	@Test
+	public void testGetOneOne()
+	{
+		UserEntity user=UserMapper.getOne(19L);//
+		System.out.println(user.toString());
+	}
 }

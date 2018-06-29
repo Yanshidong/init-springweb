@@ -32,5 +32,8 @@ public interface UserMapper {
 
 	@Delete("DELETE FROM users WHERE id =#{id}")
 	void delete(Long id);
+
+	@Delete("DELETE FROM users WHERE	id in (#{ids})")
+	void deletes(@Param("ids")List ids);//2,3,4,5,6
 	
 }
