@@ -4,20 +4,20 @@ mybatis:
 
 # server
 server:
-  port: 9189
+  port: 9180
   display-name: wangde007
   tomcat:
     accesslog:
       enabled: true
     basedir: target/tomcateLog
   session:
-    timeout: 60
+    timeout: 3600
 
 
 
 # LOG4J
-#logging:
-#  path: ./target/log4j
+logging:
+  path: ./target/log4j
 
 #datasource
 spring:

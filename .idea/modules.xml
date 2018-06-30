@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/base.iml" filepath="$PROJECT_DIR$/base.iml" />
       <module fileurl="file://$PROJECT_DIR$/etest/etest.iml" filepath="$PROJECT_DIR$/etest/etest.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/init-springweb.iml" filepath="$PROJECT_DIR$/.idea/init-springweb.iml" />
       <module fileurl="file://$PROJECT_DIR$/spring-boot-mybatis-annotation/spring-boot-mybatis-annotation.iml" filepath="$PROJECT_DIR$/spring-boot-mybatis-annotation/spring-boot-mybatis-annotation.iml" />
     </modules>
   </component>
